@@ -1,0 +1,45 @@
+.div-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+.divitem{
+    width: 280px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.divitem input{
+    display: block;
+    width: 100%;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    outline: #0d6efd;
+}
+.divitem button{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.containerd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
